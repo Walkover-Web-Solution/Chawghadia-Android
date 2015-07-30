@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@drawable/brownbackground"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/static_viewbn"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background"
+        android:drawableTop="@drawable/night"
+        android:text="View Night"
+        android:textColor="#FFFFFF"
+        android:typeface="serif" />
+
+</LinearLayout><!-- From: file:/Users/vikas/Documents/Chawghadia/app/src/main/res/layout/dayfooter.xml -->

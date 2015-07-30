@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_texture"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:src="@drawable/logo" />
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/showdate"
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/btntxt9"
+                    android:drawableLeft="@drawable/calendar"
+                    android:drawablePadding="10dp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Today&apos;s Choghadiya"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp"
+                    android:typeface="monospace" />
+
+                <Button
+                    android:id="@+id/showtime"
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/btntxt9"
+                    android:drawableLeft="@drawable/clock"
+                    android:drawablePadding="10dp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Today&apos;s Choghadiya"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp"
+                    android:typeface="monospace" />
+
+                <TextView
+                    android:id="@+id/txt2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="hello"
+                    android:textColor="#591014"
+                    android:textSize="25dp"
+                    android:typeface="monospace"
+                    tools:context=".MainActivity" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#9C1D0F" />
+                - -
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/TbtnL"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="25dp"
+                        android:background="@drawable/left"
+                        tools:context=".MainActivity" />
+
+                    <Button
+                        android:id="@+id/Ttxt1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="80dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/background"
+                        android:gravity="center"
+                        android:paddingBottom="10dp"
+                        android:shadowDx="10.0"
+                        android:text="hello"
+                        android:textColor="#591014"
+                        android:textSize="35dp"
+                        android:typeface="monospace"
+                        tools:context=".MainActivity" />
+
+                    <Button
+                        android:id="@+id/TbtnR"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/right"
+                        android:text=""
+                        tools:context=".MainActivity" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#9C1D0F" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <include layout="@layout/mainfooter" />
+
+</LinearLayout>

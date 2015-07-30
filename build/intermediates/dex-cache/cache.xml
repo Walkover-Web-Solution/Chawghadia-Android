@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/arpit/Documents/Works/Chawghadia/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/arpit/Documents/Works/Chawghadia/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-4cf2660220f5a48b30f6b9039e9be341f4ac70a3.jar" />
+    </item>
+    <item
+        jar="/Users/arpit/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/arpit/Documents/Works/Chawghadia/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-1bd150213c299815198dc4d74d45f35054d413bb.jar" />
+    </item>
+    <item
+        jar="/Users/arpit/Documents/Works/Chawghadia/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/arpit/Documents/Works/Chawghadia/app/build/intermediates/pre-dexed/debug/classes-12e81e195c4cf5a032ef7f7f40104c691a5cb308.jar" />
+    </item>
+    <item
+        jar="/Users/arpit/Documents/Works/Chawghadia/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/arpit/Documents/Works/Chawghadia/app/build/intermediates/pre-dexed/debug/classes-55a4dd161a6175eeab8124bbdd6fc7753fe1a658.jar" />
+    </item>
+
+</items>

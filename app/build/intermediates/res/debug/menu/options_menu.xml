@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/viewchawghariya"
+        android:title="View Chawghariya"></item>
+    <item
+        android:id="@+id/viewbyday"
+        android:title="View By Day"></item>
+
+</menu><!-- From: file:/Users/vikas/Documents/Chawghadia/app/src/main/res/menu/options_menu.xml -->
